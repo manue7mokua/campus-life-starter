@@ -1,8 +1,63 @@
 body {
-    background-color: blanchedalmond;
+    background-color: #D4A373;
+    font-family: sans-serif;
+}
+
+.features {
+    text-align: center;
 }
 
 .images {
     width: 250px;
     height: 250px;
+}
+
+.organizations {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2rem;
+    gap: 20px;
+}
+
+.organization-one, .organization-two, .organization-three{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.clubimage {
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.clubtitle {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.clubdescription {
+    font-size: 0.7rem;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.events {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2rem;
+    gap: 20px;
+}
+
+.cafes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2rem;
+    gap: 20px;
 }
